@@ -1,2 +1,2 @@
 FROM nginx
-COPY . /usr/share/nginx/html/
+COPY /home/ubuntu/website/rent4u-html/ /usr/share/nginx/html/
