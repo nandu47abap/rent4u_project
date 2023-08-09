@@ -1,3 +1,3 @@
 FROM nginx
-COY ./rent4u-html/* /usr/share/nginx/html/
+COPY ./rent4u-html/* /usr/share/nginx/html/
 pwd
